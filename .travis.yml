@@ -1,3 +1,6 @@
 language: java
+os:
+    - linux
+    - osx
 sudo: false
 script: mvn clean verify
